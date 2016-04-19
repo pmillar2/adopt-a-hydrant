@@ -1,6 +1,33 @@
 # Please maintain alphabetical order
-
 en:
+  admin:
+    actions:
+      clear_user_things:
+        title: "Reset %{model_label_plural}" 
+        menu: "Reset Some" 
+        breadcrumb: "Multiple Reset" 
+        bulk_link: "Reset selected %{model_label_plural}" 
+        done: "Users have been reset successfully."
+      clear_user_things_all:    # This is a variation of clear_user_things.
+        title: "Reset %{model_label_plural}" 
+        menu: "Reset All" 
+        breadcrumb: "Multiple Reset"  
+        done: "All users have been reset successfully."
+      blast_mail: 
+        title: "Send Reminders"
+        menu: "Remind Some"
+        breadcrumb: "Send Reminders"
+        bulk_link: "Send selected %{model_label_plural} Reminders"
+        done: "Users have been sent reminders successfully."
+      blast_mail_all: 
+        title: "Send Reminders"
+        menu: "Remind All"
+        breadcrumb: "Send Reminders"
+        done: "All users have been sent reminders successfully."
+    form:
+        clear_user_things: "You are currently refreshing/deleting items in the database. Are you sure you wish to do this? (Users are cleared or deleted, things have their names cleared.)"
+        blast_mail: "You are about to send reminders. Are you sure you wish to do this? (Users are sent e-mails.)"
+# The above is basically the labeling for the new buttons I added. Feel free to tweak as needed.
   buttons:
     abandon: "Abandon this %{thing}"
     adopt: "Adopt!"

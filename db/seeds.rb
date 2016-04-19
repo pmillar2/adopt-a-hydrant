@@ -1,7 +1,14 @@
 # Data from http://civicapi.couchone.com/boston_fire_hydrants/_all_docs?include_docs=true
 
-Thing.create(city_id: 1, lng: -71.049226, lat: 42.383339)
-Thing.create(city_id: 2, lng: -71.075964, lat: 42.381021)
+# These are important, they're basically for record keeping.
+User.create(id: 1, name: "Administration", admin: true, email: "admin@mails.com", password: "Adopt")
+User.create(id: 2, name: "Everyone", admin: true, email: "everyone@mails.com", password: "Adopt")
+Thing.create(city_id: 1, name: "Shoveling Reminder")
+Thing.create(city_id: 2, name: "Re-Register Reminder")
+# The last two are obviously optional but they make record keeping easier.
+
+#Thing.create(city_id: 1, lng: -71.049226, lat: 42.383339)
+#Thing.create(city_id: 2, lng: -71.075964, lat: 42.381021)
 Thing.create(city_id: 3, lng: -71.073419, lat: 42.380106)
 Thing.create(city_id: 4, lng: -71.070918, lat: 42.377728)
 Thing.create(city_id: 5, lng: -71.071576, lat: 42.377281)

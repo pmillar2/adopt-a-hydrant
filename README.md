@@ -9,6 +9,7 @@
 [coveralls]: https://coveralls.io/r/codeforamerica/adopt-a-hydrant
 
 Claim responsibility for shoveling out a fire hydrant after it snows.
+EDITED: Adds admin buttons to the interface to allow for mass reminders from the admin, as well as resetting the grid when neccessary.
 
 ## Screenshot
 ![Adopt-a-Hydrant](https://github.com/codeforamerica/adopt-a-hydrant/raw/master/screenshot.png "Adopt-a-Hydrant")
